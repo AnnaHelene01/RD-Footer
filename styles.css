@@ -1,8 +1,7 @@
 /* FOOTER TIL RAINY DAYS */
 footer {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    justify-content: center;
+    grid-template-rows: auto auto auto;
     background-color: #113040;
     color: #FFF;
 }
@@ -11,3 +10,5 @@ footer {
 .text {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Få de tre hoved-divene til å ligge vannrett ved siden av hverandre*/
