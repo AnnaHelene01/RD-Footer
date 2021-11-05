@@ -58,6 +58,7 @@ footer > .grid-footer {
 .footer-cta {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .footer-app {
