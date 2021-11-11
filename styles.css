@@ -7,7 +7,7 @@ footer {
 }
 footer > .grid-footer {
     display: grid;
-    grid-template-columns: 300px ;
+    grid-template-columns: 333.33px ;
     justify-content: center;
     margin: 20px;
     padding: 30px;
@@ -64,6 +64,11 @@ footer > .grid-footer {
 .footer-app {
     display: flex;
     align-items: center;
+    text-align: center;
+}
+
+.email-align {
+    display: flex;
 }
 
 
@@ -85,4 +90,5 @@ footer > .grid-footer {
 @media (min-width: 480px) {
     footer > .grid-footer {
         grid-template-columns: 300px 300px 300px;
+    }
 }
