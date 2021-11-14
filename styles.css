@@ -1,4 +1,6 @@
 /* FOOTER TIL RAINY DAYS */
+/* Plassere de tre fractions i grid*/
+
 footer {
     display: grid;
     grid-template-rows: auto;
@@ -13,11 +15,6 @@ footer > .grid-footer {
     padding: 30px;
 }
 
-/* Plassere de tre fractions i grid*/
-.foot2 {
-    text-align: center;
-}
-
 /* Ordne font*/
 .text {
     font-family: 'Montserrat', sans-serif;
@@ -27,40 +24,32 @@ footer > .grid-footer {
 .cta-footer {
     background-color: #0B7F99;
     color: #FFF;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     text-transform: uppercase;
-    padding: 10px 80px;
-    border-radius: 5px;
-    cursor: pointer;
     text-decoration: none;
+    padding: 10px 10px; 
+    grid-row: 2;
+    min-width: 50px;
+    margin-top: 0px;
+}
+
+.cta-footer:hover {
+    background-color: rgba(255, 255, 255, .3)
 }
 /* Mail CTA*/
 .footer-cta {
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .email-align {
     display: flex;
 }
 
-#email {
+#email-footer {
     padding: 10px;
     font-size: 1em;
-}
-
-.cta-large {
-    padding: 10px 20px;
-    font-size: 0,8em;
-    grid-column: 2;
-    grid-row: 2;
-    min-width: 51.2px;
-    text-align: center;
-    margin-top: 5px;
-}
-.cta-large:hover {
-    background-color: rgba(255, 255, 255, .3)
 }
 
 .footer-app {
